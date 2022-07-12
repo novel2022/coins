@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> link li
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="cripto.css">
+
+<body>
+    <div class="container">
+        <div class="cc-bar">
+            <ul>
+                <li>
+                    <figure>
+                        <a href="#"><img class="ticker_pic_10" src="https://romua1d.ru/wp-content/uploads/2018/02/1511948560_s.png"></a>
+                    </figure>
+                    <div style="display: inline-block; text-align: left;">
+                        <p><a class="ticker_name side-link dark" href="#">Bitcoin</a></p>
+                        <div class="grey_font"><span data-coin="CHANGE24HOURPCT_BTC">-3.85 %</span></div>
+                        <p><span class="ticker_usd" data-coin="PRICE_BTC">9 852.76 $</span></p>
+                        <div class="grey_font"><span data-coin="CHANGE24HOUR_BTC">-379.33 $</span></div>
+                    </div>
+                </li>
+
+                </li>
+                <li>
+
+                    <div style="display: inline-block; text-align: left;">
+
+                        <span data-coin="CHANGE24HOURPCT_ETH">-4.61 %</span>
+                        <span class="ticker_usd" data-coin="PRICE_ETH">828.86 $</span>
+
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+<script src="/assets/js/ccc-streamer-utilities.js?v=1.0.2"></script>
+<script src="/assets/js/crypto-socket-streamer.js?v=1.0.2"></script>
+<script type="text/javascript">
+    new SocketStreamer({
+        coins: "BTC,ETH,LTC,DASH"
+    });
+</script>
+
+<script src="https://onedrive.live.com/embed?cid=8D23C52143804E4E&resid=8D23C52143804E4E%212672&authkey=AIOIZMmigjN6IFs"></script> 
+        </html>
